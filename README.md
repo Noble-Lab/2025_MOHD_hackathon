@@ -1,15 +1,14 @@
-# 2025 MOHD imputation hackathon
+# 2025 MOHD Imputation Hackathon
 
-### Welcome to the 2025 MOHD Imputation Hackathon!  
+### Welcome to the 2025 MOHD Imputation Hackathon!
 
 The immediate goal of this hackathon is to prototype and compare methods for **multi-omic data imputation** using CCLE data. In the long term, we hope to build a community interested in writing a **Nature Methods Registered Report**. Preparing such a Registered Report would benefit from dividing tasks across a group, and what we do here (creating baselines and designing a benchmarking pipeline) is a toy version of what that larger project could look like.
 
 ---
 
-##  Getting Started
+## Getting Started
 
 ### 1. Clone the repo
-
 
 ### 2. Set up your environment
 
@@ -33,6 +32,7 @@ Available splits:
 👉 Data for the hackathon can be found at this [link](https://drive.google.com/drive/folders/1w8rro2Vhynnf2uiqLOgXwOFBfgRk2SQm?usp=sharing)
 
 ---
+
 ## Code Structure
 
 - `base_imputer.py` — defines the `BaseImputer` API (all models must inherit or follow this interface).

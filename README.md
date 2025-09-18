@@ -1,6 +1,6 @@
 # 2025 MOHD imputation hackathon
 
-Welcome to the 2025 MOHD Imputation Hackathon!  
+### Welcome to the 2025 MOHD Imputation Hackathon!  
 The immediate goal of this hackathon is to prototype and compare methods for **multi-omic data imputation** using CCLE data. In the long term, we hope to build a community interested in writing a **Nature Methods Registered Report**. Preparing such a Registered Report would benefit from dividing tasks across a group, and what we do here (creating baselines and designing a benchmarking pipeline) is a toy version of what that larger project could look like.
 ---
 

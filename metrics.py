@@ -13,7 +13,7 @@ def r2(y_true: np.ndarray, y_pred: np.ndarray) -> float:
     valid = tot > 0
     if not np.any(valid):
         return float('nan')
-    return float(1.0 - (resid[valid]/tot[valid]).mean())
+    return float(1.0 - resid[valid].sum() / tot[valid].sum())
 
 def spearman(y_true: np.ndarray, y_pred: np.ndarray) -> float:
     vals = []
